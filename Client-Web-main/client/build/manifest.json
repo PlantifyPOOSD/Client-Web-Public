@@ -1,0 +1,25 @@
+{
+  "short_name": "Plantify.",
+  "name": "A platform to share and care for your plants",
+  "icons": [
+    {
+      "src": "plantify_icon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "plantify_logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "plantify_logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

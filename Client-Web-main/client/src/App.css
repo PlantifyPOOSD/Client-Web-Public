@@ -1,0 +1,110 @@
+.App {
+  min-width: 100vw;
+  min-height: 200vh;
+  width: 100vw;
+  height: auto;
+  background-color: #FFF7E9;
+}
+
+/* ========================================== NAVBAR CSS ==========================================*/
+
+.navbar {
+  position: relative;
+  display: flex;
+  justify-items: left;
+  padding: 30px 30px;
+  z-index: 1;
+}
+
+#plantify {
+  margin-left: 20px;
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: #385250;
+  font-family: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item a {
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #385250;
+  font-family: bold;
+  margin: 0px 20px;
+}
+
+.navbar-spacer {
+  width: 60%;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 40px;
+  background: #D1C3A7;
+  padding: 8px 15px;
+  border-radius: 15px;
+}
+
+.search-box input {
+  height: 100% !important;
+  width: 100% !important;
+  outline: none !important;
+  border: none !important;
+  background: #D1C3A7 !important;
+  padding: none !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.register-button-box {
+  background-color: #385250;
+  border-radius: 16px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#register-button {
+  color: white;
+}
+
+.user-icon {
+  margin: 10px 10px;
+  background-color: #385250;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  font-size: 2em;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#navbar-profile-pic {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 60px;
+}
+
+/* ========================================================================================= */
+
+.background-plant {
+  object-fit: contain;
+  object-position: 0px 0px;
+  width: 80%;
+  height: 80%;
+  transform: scaleX(-1) rotate(-30deg);
+}

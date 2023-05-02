@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.26d1465f.css",
+    "main.js": "/static/js/main.32d621d9.js",
+    "static/js/787.a86f3764.chunk.js": "/static/js/787.a86f3764.chunk.js",
+    "static/media/Monstera_half.png": "/static/media/Monstera_half.5eb8ee4d2722f1d2621e.png",
+    "static/media/testPFP.jpeg": "/static/media/testPFP.26106360010c34a28c92.jpeg",
+    "static/media/Monstera.png": "/static/media/Monstera.4e4f3a27c91967422ab6.png",
+    "static/media/share-about.png": "/static/media/share-about.3a5c19b875cd48937bcd.png",
+    "static/media/care-about.png": "/static/media/care-about.c250d604960f8d44d6c5.png",
+    "static/media/plant2.jpeg": "/static/media/plant2.f9248ccef9b9a393ce85.jpeg",
+    "static/media/Kabel-Black.otf": "/static/media/Kabel-Black.88b8528a114bec849268.otf",
+    "index.html": "/index.html",
+    "main.26d1465f.css.map": "/static/css/main.26d1465f.css.map",
+    "main.32d621d9.js.map": "/static/js/main.32d621d9.js.map",
+    "787.a86f3764.chunk.js.map": "/static/js/787.a86f3764.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26d1465f.css",
+    "static/js/main.32d621d9.js"
+  ]
+}

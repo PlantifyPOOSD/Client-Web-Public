@@ -1,0 +1,511 @@
+
+/* ====================================== Add Plant Page CSS ====================================== */
+.add-plant-page {
+    text-align: left;
+    color: #385250;
+  }
+  
+  .add-plant-container {
+    width: 1000px;
+    height: 700px;
+    margin: 0px auto;
+    margin-top: -60px;
+    position: relative;
+    background-color: #FFF7E9;
+    padding: 30px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 5px 5px 10px grey;
+  }
+  .edit-button{
+    background-image: url("../img/edit.png");
+    background-color: transparent;
+    background-repeat:no-repeat;
+    background-size:contain;
+    border: none;
+    width: 50px;
+    height:15px;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 41%;
+    cursor: pointer;
+  }
+
+  .delete-button{
+    background-image: url("../img/trashcan.png");
+    background-color: transparent;
+    background-repeat:no-repeat;
+    background-size:contain;
+    border: none;
+    width: 35px;
+    height:35px;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 41%;
+  }
+  .upload-image-container {
+    width: 50%;
+    height: 90%;
+    float: left;
+  }
+  
+  .upload-text-container {
+    width: 50%;
+    height: 90%;
+    float: left;
+    text-align: left;
+    padding: 30px;
+  }
+  
+  .image-drop-box {
+    background-color: #E4D9C4;
+    margin: 0px auto;
+    position: relative;
+    width: 90%;
+    height: auto;
+    border-radius: 16px;
+    padding: 10px 0px;
+  }
+  
+  .dotted-box {
+    margin: auto;
+    width: 95%;
+    height: 556px;
+    outline: 3px dashed #B0A58F;
+    border-radius: 16px;
+  }
+  
+  .upload-button-container {
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 35%;
+    z-index: 9; 
+  }
+  
+  #upload-icon {
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    color: #E4D9C4;
+    position: relative;
+  }
+  
+  #user-uploaded-image {
+    z-index: 10;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+  
+  #plant-name {
+    margin-top: 50px;
+    padding-left: 0px;
+    height: 30px;
+    width: 400px;
+    background-color: #FFF7E9;
+    border-radius: 0px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    outline: none;
+    font-family: bold;
+    font-size: 2rem;
+  }
+  
+  #plant-name::placeholder {
+    color: #385250;
+  }
+  
+  #plant-species {
+    padding-left: 0px;
+    height: 30px;
+    width: 400px;
+    background-color: #FFF7E9;
+    border-radius: 0px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    outline: none;
+    font-family: 'Josefin Sans';
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  #plant-species::placeholder {
+    color: #385250;
+  }
+  
+  #plant-description {
+    border: none;
+    height: 290px;
+    box-shadow: 5px 5px 10px grey;
+    font-family: 'Josefin Sans';
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  #plant-description::placeholder {
+    color: #385250;
+  }
+  
+  #save-button {
+    width: 25%;
+  }
+  /* ========================================================================================= */
+  /* ================================== Edit Plant Page CSS =================================== */
+  .edit-plant-buttons-container{
+    width: 50%;
+  }
+
+  .edit-plant-buttons-container-half {
+    width: 50%;
+    float: left;
+  }
+
+  #edit-plant-cancel-button {
+    background: none;
+    color: #385250;
+  }
+  #edit-plant-confirm-button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 10px;
+    text-align: center;
+    color: white;
+    background-color: #385250;
+  }
+  .form-file-upload .close {
+    display: none;
+  }
+
+  /* ========================================================================================= */
+  /* =============================== Plant Page CSS ========================================== */
+  .plant-container {
+    width: 1000px;
+    height: 1000px;
+    margin: 0px auto;
+    margin-top: -60px;
+    position: relative;
+    background-color: #FFF7E9;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 5px 5px 10px grey;
+  }
+  
+  .plant-image-container {
+    width: 50%;
+    height: 100%;
+    float: left;
+    border-radius: 30px 0px 0px 30px;
+  }
+  
+  .plant-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px 0px 0px 30px;
+  }
+  .plant-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px 0px 0px 30px;
+  }
+  
+  .plant-bio-container {
+    width: 50%;
+    height: 100%;
+    float: left;
+    border-radius: 0px 30px 30px 0px;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .single-plant-header {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    color: #385250;
+    font-family: bold;
+  }
+  
+  #single-plant-description {
+    color: #385250;
+    font-family: 'Josefin Sans';
+    font-size: 1.2rem;
+  }
+  
+  .plant-SuggestedCare-container
+  {
+    height: 200px;
+  }
+
+  .care-container
+  {
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
+    color: #385250;
+    font-size: 1.5rem;
+    font-family: "Josefin Sans";
+  }
+
+  .suggestion-type {
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .suggestion-icon {
+    height: 50px;
+    width: 50px;
+    margin-right: 2px;
+    margin-left: 0px;
+    vertical-align: middle;
+  }
+
+  .suggestion-header {
+    display: inline-block;
+    font-size: 2rem;
+    position: absolute;
+    bottom: -10px;
+  }
+
+  .plant-error
+  {
+    text-decoration: none;
+    color: red;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .watering-progress-container {
+    margin-bottom: 40px;
+  }
+
+  .watering-header {
+    font-size: 2rem;
+  }
+
+  .date-last-watered {
+    margin-left: 20px;
+  }
+
+  .suggestion {
+    margin-left: 10px;
+  }
+
+  .water-button-container {
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  /* ========================================================================================= */
+  
+  
+  /* ================================== PLANTBASE CSS ===================================== */
+  .plantbase-page {
+    text-align: center;
+    color: #385250;
+  }
+  
+  #back-icon {
+    background-color: transparent;
+    color: #D1C3A7;
+  }
+  
+  #your-plantbase {
+    font-family: bold;
+  }
+  
+  .plantbase-button {
+    display: inline-block;
+  }
+  
+  .plantbase-button > p {
+    font-size: .8rem;
+  }
+  
+  .plantbase-icon {
+    margin: 10px 10px;
+    background-color: #385250;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    font-size: 2em;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  #number-of-plants {
+    margin-left: 160px;
+    margin-bottom: 20px;
+    font-family: bold;
+  }
+  
+  .plantbase {
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+  }
+  
+  .plantbase-container {
+    column-count: 5;
+    column-gap: 10px;
+    height: 100%;
+    max-width: 1260;
+    padding: 0px 120px
+  }
+  
+  @media (max-width: 859px) {
+    .plantbase-container {
+      column-count: 1;
+    }
+  }
+  
+  @media (min-width: 860px) and (max-width: 1139px) {
+    .plantbase-container {
+      column-count: 2;
+    }
+  }
+  
+  @media (min-width: 1140px) and (max-width: 1439px) {
+    .plantbase-container {
+      column-count: 3;
+    }
+  }
+  
+  @media (min-width: 1440px) and (max-width: 1740px) {
+    .plantbase-container {
+      column-count: 4;
+    }
+  }
+  /* ========================================================================================= */
+
+
+  /* ================================== PIN CSS ===================================== */
+  .pin {
+    width: 300px;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .pin a:Link {
+    text-decoration: none;
+  }
+  
+  .pin .main-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .pin:hover .pin-plant-name {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .pin:hover .plant-pin-name-container {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .pin .plant-pin-name-container {
+    background-color: #385250;
+    width: 280px;
+    height: 50px;
+    border-radius: 16px;
+    z-index: 10;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+
+    transition: opacity .2s, visiblity .2s;
+  }
+
+  .pin .pin-plant-name {
+    color: white;
+    font-family: bold;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+    margin-top: 12px;
+
+    transition: opacity .2s, visiblity .2s;
+  }
+  /* ========================================================================================= */
+
+  /* ================================== Todo CSS ===================================== */
+
+  .todo-list-header {
+    margin-top: 6%;
+    color: #385250;
+    font-family: bold;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .todo-list {
+    width: 80%;
+    margin: 10%;
+  }
+
+  .todo-header {
+    color: #385250;
+    font-family: bold;
+    margin-bottom: 20px;
+  }
+
+  .todo {
+    height: 200px;
+    margin-bottom: 40px;
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+  }
+
+  .todo-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px 0px 0px 20px;
+    object-fit: cover;
+    position: absolute;
+  }
+
+  .todo-name {
+    color: #385250;
+    font-family: bold;
+    font-size: 2rem;
+    margin-left: 220px;
+    margin-top: 90px;
+  }
+
+  .todo-water-button {
+    width: 200px !important;
+    height: 60px !important;
+    margin-top: 70px !important;
+    margin-right: 20px !important;
+  }
+
+  .no-plants-message {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #385250;
+    font-family: "Josefin Sans";
+  }
